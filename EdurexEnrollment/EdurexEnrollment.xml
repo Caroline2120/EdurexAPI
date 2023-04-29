@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EdurexEnrollment</name>
+    </assembly>
+    <members>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.AllProgramCategories">
+            <summary>
+            Get all program categories
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.AllProgramsbyCategoryId(System.Int32)">
+            <summary>
+            Get all program by categoryId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.programOptions(System.Int32)">
+            <summary>
+            Get all program options by programId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.programOptionPriceDetails(System.Int32)">
+            <summary>
+            Get all program options price details by programOptionId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Subjects(System.Int32)">
+            <summary>
+            Get all subjects by programOptionId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Countries">
+            <summary>
+            Get all countries
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.States(System.Int32)">
+            <summary>
+            Get all states by countryId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Cities(System.Int32)">
+            <summary>
+            Get all cities by stateId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Streets(System.Int32)">
+            <summary>
+            Get all streets by cityId
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Institutions">
+            <summary>
+            Get all institutions
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Courses">
+            <summary>
+            Get all courses
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.userProgramOptions">
+            <summary>
+            All user's program options
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.newUserProgramOption(System.Int32)">
+            <summary>
+            Add new program to user's program
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="programOptionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.DeleteProgramOption(System.Int32)">
+            <summary>
+            Delete user program option
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.userReferralCodeUsage">
+            <summary>
+            User's referral code usage
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.UserDiscount">
+            <summary>
+            User's discount
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.UserDiscountUsage(System.String)">
+            <summary>
+            User's discount usage
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.DiscountRate(System.String)">
+            <summary>
+            Getting discount rate by discount code
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.UserPaymentHistory">
+            <summary>
+            User's payment history
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.MakePayment(EdurexEnrollment.Core.DTO.PaymentDTO)">
+            <summary>
+            Make Payment
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.FinalisePayment(System.String)">
+            <summary>
+            Finalise payment
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="paymentRef"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.SignUp(EdurexEnrollment.Core.DTO.RegisterDTO)">
+            <summary>
+            SignUp
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Login(EdurexEnrollment.Core.DTO.LoginDTO)">
+            <summary>
+            Login
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EdurexEnrollment.Controllers.EnrollmentController.Dashboard">
+            <summary>
+            Get dashboard details
+            </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+            <response code="500">Not Found</response>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
